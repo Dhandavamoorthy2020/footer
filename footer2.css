@@ -1,0 +1,92 @@
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:white;
+}
+footer {
+    background-color:black;
+    position:absolute;
+    bottom: 0;
+    left: 0; 
+    font-family :"";
+     height: auto;
+     width: 100vw;
+    padding-top: 40px;
+    color:rgb(252, 0, 176)
+
+   
+}
+.footer-content {
+    display: flex;align-items: center;justify-content: center;
+    flex-direction: column;text-align: center;
+}
+.footer-content h3{
+    font: size 1.8rem;font-weight:500;text-transform:capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;margin: 10px auto;line-height: 28px;
+    font-size: 14px;color: darkorange;
+}
+.socials{
+    list-style:none;display: flex;align-items: center;
+    justify-content: center;margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;color:darkgreen;
+    border: 5.1px solid white;padding: 5px;
+    border-radius: 50%;
+}
+.socials a i{
+    font-size: 18px;width: 18px;
+}
+.socials a:hover i{
+    color: brown;
+}
+.footer-bottom{
+background-color:blue ;width:100vw;padding: 20px 0;
+padding-bottom: 40px;
+text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;word-spacing: 2px;
+    text-transform: capitalize;float: left;
+}
+.footer-bottom p a{
+    color: cadetblue;
+    font-size: 16px;
+    text-decoration: none;
+}
+.footer-menu {
+    float: right;
+}
+.footer-menu ul{
+    display:flex;
+}
+.footer-menu ul li{
+    padding-right: 10px;
+    display:black;
+    list-style: none;
+} 
+.footer-menu ul li a{
+    color: red;text-decoration:blue;
+}
+.footer-menu ul lli a:hover{
+    color:greenyellow;
+} 
+@media (max-width:600px)
+{
+    .footer-menu ul {
+        display: flex;margin-top: 10px;margin-bottom: 10px;
+    }
+    .footer-content h3{
+        font-size: 20px;
+    }
+}
